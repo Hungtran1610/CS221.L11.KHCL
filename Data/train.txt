@@ -1,0 +1,70 @@
+(TOP (S (NP (NNP Miss) (NNP Haag)) (VP (VBZ plays) (NP (NNP Elianti))))
+(TOP (S (NP (PRP We)) (VP (VBP are) (VP (IN about) (S (VP (TO to) (VP (VB see) (SBAR (IN if) (S (NP (NN advertising)) (VP (VBZ works)))))))))))
+(TOP (S (NP (DT That)) (VP (VBZ is) (NP (NN baseball)))))
+(TOP (S (NP (DT A) (NN record) (NN date)) (VP (VBZ has) (RB not) (VP (VBN been) (VP (VBN set))))))
+(TOP (S (NP (DT The) (NN market)) (VP (VBD crumbled))))
+(TOP (S (NP (PRP He)) (VP (VBD was) (ADJP (JJ right)))))
+(TOP (S (NP (DT The) (NN letter)) (VP (VBD was) (VP (VBN dated) (NP (NNP October) (CD 6))))))
+(TOP (S (NP (DT Some)) (VP (VBP give) (NP (JJ lump-sum) (NNS incentives)))))
+(TOP (S (NP (NNP Chicken) (NNS Chains)) (VP (VBN Ruffled) (PP (IN By) (NP (NP (NN Loss)) (PP (IN of) (NP (NNS Customers))))))))
+(TOP (S (NP (NNP Pittsburgh) (NN consultant) (NNP David) (NNP Bear)) (VP (VBZ is) (VP (VBG selling) (NP (DT a) (JJ soft) (NN approach)) (PP (TO to) (NP (NP (NNS clients)) (SBAR (WHNP (WP who)) (S (VP (VP (VBP want) (NP (NN exposure))) (RB yet) (VP (VBP shun) (NP (JJ pushy) (NNS ads))))))))))))
+(TOP (S (NP (NNP Mister) (NNP Bandow)) (VP (VBZ is) (NP (DT a) (NNP Cato) (NNP Institute) (NN fellow)))))
+(TOP (S (NP (DT This)) (VP (VBZ feels) (PP (ADVP (JJR more)) (IN like) (NP (DT a) (JJ one-shot) (NN deal))))))
+(TOP (S (NP (NNS People)) (VP (VBP are) (RB not) (VP (VBG panicking)))))
+(TOP (S (NP (DT The) (NN test)) (VP (MD may) (VP (VB come) (NP (NN today))))))
+(TOP (S (NP (DT Some)) (VP (VBP say) (NP (NNP November)))))
+(TOP (S (NP (PRP I)) (VP (VBP say) (NP (CD 1992)))))
+(TOP (S (NP (NNP Sumitomo) (NNP Realty) (CC &) (NNP Development)) (VP (VBD rose) (NP (CD 40)) (PP (TO to) (NP (CD 2170))))))
+(TOP (S (NP (NNP Heiwa) (NNP Real) (NNP Estate)) (VP (VBD gained) (NP (CD 40)) (PP (TO to) (NP (CD 2210))))))
+(TOP (S (NP (PRP I)) (VP (VBP do) (RB not) (VP (VB feel) (ADJP (RB very) (JJ ferocious))))))
+(TOP (S (NP (PRP I)) (VP (VBP do) (RB not) (VP (VB feel) (ADJP (DT either) (JJ hard) (CC or) (JJ soft))))))
+(TOP (S (NP (PRP I)) (VP (VBP feel) (ADJP (VBN committed) (PP (TO to) (NP (NP (DT the) (NN program)) (PP (IN of) (S (VP (VP (VBG opening) (NP (NNS markets))) (CC and) (VP (VBG expanding) (NP (NN trade))))))))))))
+(TOP (S (NP (DT The) (NN board)) (VP (VBD increased) (PP (IN by) (NP (CD one))) (PP (TO to) (NP (CD 26) (NNS members))))))
+(TOP (S (NP (NNP Holmes)) (VB (VBZ sat))))
+(TOP (S (NP (NNP Holmes)) (VP (VBZ lit) (NP (DT a) (NN pipe)))))
+We arrived the day (IN before) (NNP Thursday)
+Holmes sat in the red armchair and he chuckled.
+My companion smiled an enigmatical smile. 
+Holmes chuckled to himself.
+She never said a word until we were at the door here.
+Holmes sat down and lit his pipe.
+I had a country walk on Thursday and came home in a dreadful mess.
+I had a little moist red paint in the palm of my hand.
+I smile.
+I ate a big pizza.
+He came home.
+She arrived country
+We play football sunday.
+He told he arrived sunday
+He had a mess.
+We had a little country.
+I had a enigmatical story.
+I broke the red door.
+We paint the blue door.
+I walk home.
+I had a bad day.
+He chuckled.
+Ronaldo is Portuguese
+Ronaldo played for the Spanish club.
+I am Vietnamese.
+I keep his phone.
+I never play football.
+I keep her car.
+I go to my company
+She left Japan thursday.
+He broke his phone.
+I go to my company before I ate pho.
+It is the little country.
+Japan is the big country.
+Chelsea is a European club.
+Germany is a European country.
+He does it himself.
+I keep my new phone.
+Ronaldo played football well.
+It is on the door
+I arrived Europe and it is Germany.
+He left Germany himself.
+He comes here.
+He played football and he ate pizza
+Ronaldo played for Chelsea and it is european country.
+he is bad boyfriend

@@ -1,0 +1,1 @@
+(TOP (S (NP (NNP Miss) (NNP Haag)) (VP (VBZ plays) (NP (NNP CALL)))))

@@ -1,0 +1,212 @@
+NNP -> 'Miss'
+NNP -> 'Haag'
+NNP -> 'Elianti'
+NNP -> 'London'
+NNP -> 'October'
+NNP -> 'Chicken'
+NNP -> 'CALL'
+NNP -> 'Pittsburgh'
+NNP -> 'David'
+NNP -> 'Bear'
+NNP -> 'Mister'
+NNP -> 'Bandow'
+NNP -> 'Cato'
+NNP -> 'Institute'
+NNP -> 'November'
+NNP -> 'Sumitomo'
+NNP -> 'Realty'
+NNP -> 'Development'
+NNP -> 'Heiwa'
+NNP -> 'Real'
+NNP -> 'Estate'
+VBZ -> 'plays'
+VBZ -> 'works'
+VBZ -> 'is'
+VBZ -> 'has'
+VBZ -> 'feels'
+NP -> NNP NNP
+NP -> NNP
+NP -> PRP
+NP -> NN
+NP -> DT NN
+NP -> DT NNS
+NP -> DT
+NP -> DT NN NN
+NP -> JJ NNS
+NP -> NNS
+NP -> NNP CD
+NP -> NNP NNS
+NP -> NP PP
+NP -> EX
+NP -> NNP NN NNP NNP
+NP -> DT JJ NN
+NP -> NP SBAR
+NP -> DT NNP NNP NN
+NP -> CD
+NP -> NNP NNP NNP
+NP -> NN NN
+NP -> CD NNS
+VP -> VBZ NP
+VP -> VBZ
+VP -> VB SBAR
+VP -> TO VP
+VP -> IN S
+VP -> VBP VP
+VP -> VBD ADJP
+VP -> VBN
+VP -> VBN VP
+VP -> VBZ RB VP
+VP -> VBD NP PP
+VP -> VBD
+VP -> VBG
+VP -> VBD S
+VP -> VBN NP
+VP -> VBD VP
+VP -> VBN PP
+VP -> VBD NP
+VP -> VBP NP
+VP -> VP RB VP
+VP -> VBG NP PP
+VP -> VBZ VP
+VP -> VBP RB VP
+VP -> VB NP
+VP -> MD VP
+VP -> VBD ADVP
+VP -> VB ADJP
+VP -> VBG NP
+VP -> VP CC VP
+VP -> VBP ADJP
+VP -> VBD PP PP
+S -> NP VP
+S -> VP
+S -> NP NP VP
+S -> CC NP VP
+S -> S NP VP
+PRP -> 'We'
+PRP -> 'it'
+PRP -> 'He'
+PRP -> 'IT'
+PRP -> 'I'
+VBP -> 'are'
+VBP -> 'give'
+VBP -> 'want'
+VBP -> 'shun'
+VBP -> 'say'
+VBP -> 'do'
+VBP -> 'feel'
+IN -> 'about'
+IN -> 'if'
+IN -> 'By'
+IN -> 'at'
+IN -> 'for'
+IN -> 'of'
+IN -> 'like'
+IN -> 'by'
+TO -> 'to'
+VB -> 'see'
+VB -> 'come'
+VB -> 'feel'
+NN -> 'advertising'
+NN -> 'time'
+NN -> 'baseball'
+NN -> 'record'
+NN -> 'date'
+NN -> 'lunchtime'
+NN -> 'selling'
+NN -> 'fever'
+NN -> 'market'
+NN -> 'letter'
+NN -> 'Loss'
+NN -> 'consultant'
+NN -> 'approach'
+NN -> 'exposure'
+NN -> 'fellow'
+NN -> 'deal'
+NN -> 'test'
+NN -> 'today'
+NN -> 'Investor'
+NN -> 'focus'
+NN -> 'program'
+NN -> 'trade'
+NN -> 'board'
+SBAR -> IN S
+SBAR -> WHNP S
+TOP -> S
+DT -> 'This'
+DT -> 'the'
+DT -> 'That'
+DT -> 'A'
+DT -> 'The'
+DT -> 'Some'
+DT -> 'no'
+DT -> 'a'
+DT -> 'either'
+NNS -> 'firms'
+NNS -> 'signals'
+NNS -> 'stocks'
+NNS -> 'incentives'
+NNS -> 'Chains'
+NNS -> 'Customers'
+NNS -> 'buyers'
+NNS -> 'clients'
+NNS -> 'ads'
+NNS -> 'People'
+NNS -> 'traders'
+NNS -> 'markets'
+NNS -> 'members'
+VBD -> 'were'
+VBD -> 'was'
+VBD -> 'left'
+VBD -> 'crumbled'
+VBD -> 'kept'
+VBD -> 'rose'
+VBD -> 'gained'
+VBD -> 'shifted'
+VBD -> 'said'
+VBD -> 'increased'
+JJ -> 'ready'
+JJ -> 'mixed'
+JJ -> 'right'
+JJ -> 'soft'
+JJ -> 'pushy'
+JJ -> 'ferocious'
+JJ -> 'hard'
+ADJP -> JJ
+ADJP -> RB JJ
+ADJP -> DT JJ CC JJ
+ADJP -> VBN PP
+RB -> 'not'
+RB -> 'yet'
+RB -> 'quickly'
+RB -> 'very'
+VBN -> 'been'
+VBN -> 'set'
+VBN -> 'dated'
+VBN -> 'Ruffled'
+VBN -> 'committed'
+PP -> IN NP
+PP -> TO NP
+PP -> IN S
+CC -> 'And'
+CC -> 'But'
+CC -> 'or'
+CC -> 'and'
+VBG -> 'falling'
+VBG -> 'selling'
+VBG -> 'panicking'
+VBG -> 'opening'
+VBG -> 'expanding'
+CD -> '6'
+CD -> '1992'
+CD -> '40'
+CD -> '2170'
+CD -> '2210'
+CD -> 'one'
+CD -> '26'
+EX -> 'there'
+WP -> 'who'
+WHNP -> WP
+JJR -> 'more'
+ADVP -> JJR
+ADVP -> RB
+MD -> 'may'
