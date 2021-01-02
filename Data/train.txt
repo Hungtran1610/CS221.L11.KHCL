@@ -20,51 +20,41 @@
 (TOP (S (NP (PRP I)) (VP (VBP do) (RB not) (VP (VB feel) (ADJP (DT either) (JJ hard) (CC or) (JJ soft))))))
 (TOP (S (NP (PRP I)) (VP (VBP feel) (ADJP (VBN committed) (PP (TO to) (NP (NP (DT the) (NN program)) (PP (IN of) (S (VP (VP (VBG opening) (NP (NNS markets))) (CC and) (VP (VBG expanding) (NP (NN trade))))))))))))
 (TOP (S (NP (DT The) (NN board)) (VP (VBD increased) (PP (IN by) (NP (CD one))) (PP (TO to) (NP (CD 26) (NNS members))))))
-(TOP (S (NP (NNP Holmes)) (VB (VBZ sat))))
+(TOP (S (NP (NNP Holmes)) (VB sit)))
 (TOP (S (NP (NNP Holmes)) (VP (VBZ lit) (NP (DT a) (NN pipe)))))
-We arrived the day (IN before) (NNP Thursday)
-Holmes sat in the red armchair and he chuckled.
-My companion smiled an enigmatical smile. 
-Holmes chuckled to himself.
-She never said a word until we were at the door here.
-Holmes sat down and lit his pipe.
-I had a country walk on Thursday and came home in a dreadful mess.
-I had a little moist red paint in the palm of my hand.
-I smile.
-I ate a big pizza.
-He came home.
-She arrived country
-We play football sunday.
-He told he arrived sunday
-He had a mess.
-We had a little country.
-I had a enigmatical story.
-I broke the red door.
-We paint the blue door.
-I walk home.
-I had a bad day.
-He chuckled.
-Ronaldo is Portuguese
-Ronaldo played for the Spanish club.
-I am Vietnamese.
-I keep his phone.
-I never play football.
-I keep her car.
-I go to my company
-She left Japan thursday.
-He broke his phone.
-I go to my company before I ate pho.
-It is the little country.
-Japan is the big country.
-Chelsea is a European club.
-Germany is a European country.
-He does it himself.
-I keep my new phone.
-Ronaldo played football well.
-It is on the door
-I arrived Europe and it is Germany.
-He left Germany himself.
-He comes here.
-He played football and he ate pizza
-Ronaldo played for Chelsea and it is european country.
-he is bad boyfriend
+(TOP (S (NP (PRP They)) (VP (VBD did) (RB not))))
+(TOP (S (NP (NNS Terms)) (VP (VBD were) (RB not) (VP (VBN disclosed)))))
+(TOP (S (NP (PRP We)) (VP (VBD put) (NP (DT some) (NNS orders)) (ADVP (RB together)))))
+(TOP (S (NP (EX There)) (VP (VBD were) (RB not) (NP (DT any) (JJ extraordinary) (NNS items)))))
+(TOP (S (NP (PRP It)) (VP (VBD was) (NP (DT a) (ADJP (RB pretty) (JJ wild)) (NN day)))))
+(TOP (S (NP (JJ Investment-grade) (JJ corporate) (NNS bonds)) (VP (VBD ended) (ADJP (NP (QP (CD one) (TO to) (CD 1) (CD 1\/2)) (NN point)) (RBR lower)))))
+(TOP (S (NP (JJ Serial) (NN bond) (NNS yields)) (VP (VBD were) (ADVP (RB up) (NP (QP (IN about) (CD 0.05)) (NN percentage) (NN point))))))
+(TOP (S (NP (NP (DT The) (ADJP (JJ old) (CC and) (JJ revised)) (NNS numbers)) (NP (DT both))) (VP (VBP include) (NP (NN over-allotment) (NNS provisions)))))
+(TOP (S (NP (PDT All) (DT the) (NNS concerns)) (VP (VBP are) (VP (VBN based) (PP (IN in) (NP (NNP Toronto)))))))
+(TOP (S (NP (NNP Mister) (NNP Goldberg)) (VP (VBZ is) (NP (NP (DT the) (JJ sole) (JJ general) (NN partner)) (PP (IN in) (NP (NNP Rose) (NNP Partners)))))))
+(TOP (S (NP (PRP It)) (VP (VBZ is) (RB not) (ADJP (JJ ordinary) (PP (IN like) (NP (NN color)))))))
+(TOP (S (NP (DT Some) (NNS companies)) (VP (VBP are) (VP (VBG starting) (S (VP (TO to) (VP (VB tackle) (NP (DT that) (NN problem)))))))))
+(TOP (S (NP (JJ Other) (NNS companies)) (VP (VBP are) (VP (VBG introducing) (NP (JJ related) (NNS products))))))
+(TOP (S (NP (PRP You)) (VP (MD can) (RB not) (VP (VB tell) (NP (DT the) (JJ same)) (PP (IN with) (NP (JJ black) (CC and) (JJ white)))))))
+(TOP (S (NP (DT That)) (VP (VBZ is) (NP (DT the) (NN appeal)))))
+(TOP (S (NP (DT The) (NN price)) (VP (VBD was) (RB not) (VP (VBN disclosed)))))
+(TOP (S (NP (NNP Gold)) (VP (ADVP (RB also)) (VBD rose))))
+(TOP (S (NP (DT The) (NN dollar)) (VP (ADVP (RB also)) (VBD moved) (ADVP (RBR higher)) (PP (IN in) (NP (NNP Tokyo))))))
+(TOP (S (NP (JJ Many)) (VP (VBD went) (NP (NN bargain-hunting)))))
+(TOP (S (NP (PRP It)) (VP (VBD ended) (PP (IN with) (NP (NP (DT a) (NN gain)) (PP (IN of) (NP (CD 88.12) (NNS points))))))))
+(TOP (S (NP (JJ Many) (JJ other) (NNS factors)) (VP (VBD played) (NP (DT a) (NN part)) (PP (IN in) (NP (NP (NN yesterday) (POS is)) (NN comeback))))))
+(TOP (S (NP (RB Not) (NN everybody)) (VP (VBD was) (VP (VBG making) (NP (NN money))))))
+(TOP (S (NP (NNP Police)) (VP (VBD did) (RB not) (VP (VB intervene)))))
+(TOP (S (NP (PRP He)) (VP (VBD did) (RB not) (VP (VB elaborate) (PP (IN on) (NP (NP (JJ other) (NN asset) (NNS sales)) (VP (VBG being) (VP (VBN considered)))))))))
+(TOP (S (NP (NNP NCNB)) (VP (VBD continued) (NP (NP (PRP$ its) (NN foray)) (PP (IN into) (NP (DT the) (NNP Florida) (CC and) (NNP Texas) (NNS markets)))))))
+(TOP (S (NP (DT That) (NN perception)) (VP (VBZ takes) (NP (DT the) (NN focus)) (PP (IN off) (NP (DT the) (NN magazine))))))
+(TOP (S (NP (PRP You)) (VP (MD ca) (RB n't) (VP (VB live) (PP (IN on) (NP (DT that)))))))
+(TOP (S (NP (NP (DT Some)) (PP (IN in) (NP (DT the) (NN industry)))) (VP (VBP are) (ADJP (JJ skeptical)))))
+(TOP (S (NP (DT The) (NN device)) (VP (VBD was) (VP (VBN replaced)))))
+(TOP (S (NP (DT The) (NN core) (NN rate)) (VP (VBZ is) (RB not) (ADVP (RB really)) (ADVP (IN out) (PP (IN of) (NP (NN line)))))))
+(TOP (S (NP (DT The) (NN woman)) (VP (VBD won) (NP (DT the) (NN bet)))))
+(TOP (S (NP (PRP It)) (VP (VBZ is) (ADVP (RB very) (RB much)) (NP (DT a) (VBG growing) (NN concern)))))
+(TOP (S (NP (DT The) (NN industry)) (VP (VBZ defies) (NP (NN characterization)))))
+(TOP (S (NP (NNS Things)) (VP (VBD had) (ADVP (RB just)) (VP (VBN gone) (ADVP (RB too) (RB far))))))
+(TOP (S (NP (NNP John) (NNP Yang)) (VP (VBD contributed) (PP (TO to) (NP (DT this) (NN article))))))
+(TOP (S (NP (DT The) (NN system)) (VP (VBZ is) (NP (DT the) (NN problem)))))

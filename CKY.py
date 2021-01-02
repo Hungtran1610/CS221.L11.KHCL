@@ -46,7 +46,7 @@ class Parser:
         self.grammar = CNF.convert_grammar(CNF.read_grammar(grammar))
         new_grammar = CNF.convert_grammar(CNF.read_grammar(grammar))
 
-        with open('new_grammar.txt', 'w') as fw:
+        with open('cnf_grammar.txt', 'w') as fw:
             for rules in new_grammar:
                 rules.insert(1, '->')
                 s = ' '.join(rules) + '\n'

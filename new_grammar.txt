@@ -1,10 +1,8 @@
 NNP -> 'Miss'
 NNP -> 'Haag'
 NNP -> 'Elianti'
-NNP -> 'London'
 NNP -> 'October'
 NNP -> 'Chicken'
-NNP -> 'CALL'
 NNP -> 'Pittsburgh'
 NNP -> 'David'
 NNP -> 'Bear'
@@ -19,17 +17,31 @@ NNP -> 'Development'
 NNP -> 'Heiwa'
 NNP -> 'Real'
 NNP -> 'Estate'
+NNP -> 'Holmes'
+NNP -> 'Toronto'
+NNP -> 'Goldberg'
+NNP -> 'Rose'
+NNP -> 'Partners'
+NNP -> 'Gold'
+NNP -> 'Tokyo'
+NNP -> 'Police'
+NNP -> 'NCNB'
+NNP -> 'Florida'
+NNP -> 'Texas'
+NNP -> 'John'
+NNP -> 'Yang'
 VBZ -> 'plays'
 VBZ -> 'works'
 VBZ -> 'is'
 VBZ -> 'has'
 VBZ -> 'feels'
+VBZ -> 'lit'
+VBZ -> 'takes'
+VBZ -> 'defies'
 NP -> NNP NNP
-NP -> DT NN
-NP -> DT NNS
 NP -> NP0 NN
 NP0 -> DT NN
-NP -> JJ NNS
+NP -> DT NN
 NP -> NNP CD
 NP -> NNP NNS
 NP -> NP PP
@@ -38,60 +50,115 @@ NP1 -> NNP NN
 NP2 -> NP1 NNP
 NP -> NP3 NN
 NP3 -> DT JJ
+NP -> JJ NNS
 NP -> NP SBAR
 NP -> NP5 NN
 NP4 -> DT NNP
 NP5 -> NP4 NNP
 NP -> NP6 NNP
 NP6 -> NNP NNP
-NP -> NN NN
 NP -> CD NNS
+NP -> DT NNS
+NP -> NP7 NNS
+NP7 -> DT JJ
+NP -> NP8 NN
+NP8 -> DT ADJP
+NP -> NP9 NNS
+NP9 -> JJ NN
+NP -> NP10 NNS
+NP10 -> DT ADJP
+NP -> NP NP
+NP -> NP11 NNS
+NP11 -> PDT DT
+NP -> NP13 NN
+NP12 -> DT JJ
+NP13 -> NP12 JJ
+NP -> DT JJ
+NP -> NP14 JJ
+NP14 -> JJ CC
+NP -> NP15 NNS
+NP15 -> JJ JJ
+NP -> NN POS
+NP -> NP NN
+NP -> RB NN
+NP -> NP VP
+NP -> NP18 NNS
+NP16 -> DT NNP
+NP17 -> NP16 CC
+NP18 -> NP17 NNP
+NP -> NP19 NN
+NP19 -> DT VBG
 VP -> VBZ NP
 VP -> VB SBAR
 VP -> TO VP
 VP -> IN S
 VP -> VBP VP
-VP -> VBD ADJP
 VP -> VBN VP
-VP -> VP7 VP
-VP7 -> VBZ RB
-VP -> VP8 PP
-VP8 -> VBD NP
-VP -> VBD S
+VP -> VP20 VP
+VP20 -> VBZ RB
+VP -> VBD ADJP
 VP -> VBN NP
 VP -> VBD VP
 VP -> VBN PP
-VP -> VBD NP
 VP -> VBP NP
-VP -> VP9 VP
-VP9 -> VP RB
-VP -> VP10 PP
-VP10 -> VBG NP
+VP -> VP21 VP
+VP21 -> VP RB
+VP -> VP22 PP
+VP22 -> VBG NP
 VP -> VBZ VP
-VP -> VP11 VP
-VP11 -> VBP RB
+VP -> VP23 VP
+VP23 -> VBP RB
 VP -> VB NP
 VP -> MD VP
-VP -> VBD ADVP
+VP -> VP24 PP
+VP24 -> VBD NP
 VP -> VB ADJP
 VP -> VBG NP
-VP -> VP12 VP
-VP12 -> VP CC
+VP -> VP25 VP
+VP25 -> VP CC
 VP -> VBP ADJP
-VP -> VP13 PP
-VP13 -> VBD PP
+VP -> VP26 PP
+VP26 -> VBD PP
+VP -> VBD RB
+VP -> VP27 VP
+VP27 -> VBD RB
+VP -> VP28 ADVP
+VP28 -> VBD NP
+VP -> VP29 NP
+VP29 -> VBD RB
+VP -> VBD NP
+VP -> VP30 ADJP
+VP30 -> VBZ RB
+VP -> VBG S
+VP -> VP31 PP
+VP31 -> VB NP
+VP -> VP32 VP
+VP32 -> MD RB
+VP -> ADVP VBD
+VP -> VP34 PP
+VP33 -> ADVP VBD
+VP34 -> VP33 ADVP
+VP -> VBG VP
+VP -> VB PP
+VP -> VP35 PP
+VP35 -> VBZ NP
+VP -> VP37 ADVP
+VP36 -> VBZ RB
+VP37 -> VP36 ADVP
+VP -> VP38 NP
+VP38 -> VBZ ADVP
+VP -> VBN ADVP
+VP -> VP39 VP
+VP39 -> VBD ADVP
+VP -> VBD PP
 S -> NP VP
-S -> S14 VP
-S14 -> NP NP
-S -> S15 VP
-S15 -> CC NP
-S -> S16 VP
-S16 -> S NP
+S -> NP VB
 PRP -> 'We'
-PRP -> 'it'
 PRP -> 'He'
-PRP -> 'IT'
 PRP -> 'I'
+PRP -> 'They'
+PRP -> 'It'
+PRP -> 'You'
 VBP -> 'are'
 VBP -> 'give'
 VBP -> 'want'
@@ -99,26 +166,33 @@ VBP -> 'shun'
 VBP -> 'say'
 VBP -> 'do'
 VBP -> 'feel'
+VBP -> 'include'
 IN -> 'about'
 IN -> 'if'
 IN -> 'By'
-IN -> 'at'
-IN -> 'for'
 IN -> 'of'
 IN -> 'like'
 IN -> 'by'
+IN -> 'in'
+IN -> 'with'
+IN -> 'on'
+IN -> 'into'
+IN -> 'off'
+IN -> 'out'
 TO -> 'to'
 VB -> 'see'
 VB -> 'come'
 VB -> 'feel'
+VB -> 'sit'
+VB -> 'tackle'
+VB -> 'tell'
+VB -> 'intervene'
+VB -> 'elaborate'
+VB -> 'live'
 NN -> 'advertising'
-NN -> 'time'
 NN -> 'baseball'
 NN -> 'record'
 NN -> 'date'
-NN -> 'lunchtime'
-NN -> 'selling'
-NN -> 'fever'
 NN -> 'market'
 NN -> 'letter'
 NN -> 'Loss'
@@ -129,78 +203,126 @@ NN -> 'fellow'
 NN -> 'deal'
 NN -> 'test'
 NN -> 'today'
-NN -> 'Investor'
-NN -> 'focus'
 NN -> 'program'
 NN -> 'trade'
 NN -> 'board'
+NN -> 'pipe'
+NN -> 'day'
+NN -> 'point'
+NN -> 'bond'
+NN -> 'percentage'
+NN -> 'partner'
+NN -> 'color'
+NN -> 'problem'
+NN -> 'appeal'
+NN -> 'price'
+NN -> 'dollar'
+NN -> 'gain'
+NN -> 'part'
+NN -> 'yesterday'
+NN -> 'comeback'
+NN -> 'everybody'
+NN -> 'money'
+NN -> 'asset'
+NN -> 'foray'
+NN -> 'perception'
+NN -> 'focus'
+NN -> 'magazine'
+NN -> 'industry'
+NN -> 'device'
+NN -> 'core'
+NN -> 'rate'
+NN -> 'line'
+NN -> 'woman'
+NN -> 'bet'
+NN -> 'concern'
+NN -> 'characterization'
+NN -> 'article'
+NN -> 'system'
 SBAR -> IN S
 SBAR -> WHNP S
-DT -> 'This'
-DT -> 'the'
 DT -> 'That'
 DT -> 'A'
 DT -> 'The'
 DT -> 'Some'
-DT -> 'no'
 DT -> 'a'
+DT -> 'This'
 DT -> 'either'
-NNS -> 'firms'
-NNS -> 'signals'
-NNS -> 'stocks'
-NNS -> 'incentives'
-NNS -> 'Chains'
-NNS -> 'Customers'
-NNS -> 'buyers'
-NNS -> 'clients'
-NNS -> 'ads'
-NNS -> 'People'
-NNS -> 'traders'
-NNS -> 'markets'
-NNS -> 'members'
-VBD -> 'were'
-VBD -> 'was'
-VBD -> 'left'
-VBD -> 'crumbled'
-VBD -> 'kept'
-VBD -> 'rose'
-VBD -> 'gained'
-VBD -> 'shifted'
-VBD -> 'said'
-VBD -> 'increased'
-JJ -> 'ready'
-JJ -> 'mixed'
-JJ -> 'right'
-JJ -> 'soft'
-JJ -> 'pushy'
-JJ -> 'ferocious'
-JJ -> 'hard'
-ADJP -> RB JJ
-ADJP -> ADJP18 JJ
-ADJP17 -> DT JJ
-ADJP18 -> ADJP17 CC
-ADJP -> VBN PP
+DT -> 'the'
+DT -> 'some'
+DT -> 'any'
+DT -> 'both'
+DT -> 'that'
+DT -> 'this'
 RB -> 'not'
 RB -> 'yet'
-RB -> 'quickly'
 RB -> 'very'
+RB -> 'together'
+RB -> 'pretty'
+RB -> 'up'
+RB -> 'also'
+RB -> 'Not'
+RB -> 'really'
+RB -> 'much'
+RB -> 'just'
+RB -> 'too'
+RB -> 'far'
 VBN -> 'been'
 VBN -> 'set'
 VBN -> 'dated'
 VBN -> 'Ruffled'
 VBN -> 'committed'
-PP -> IN NP
-PP -> TO NP
-PP -> IN S
-CC -> 'And'
-CC -> 'But'
-CC -> 'or'
-CC -> 'and'
-VBG -> 'falling'
-VBG -> 'selling'
-VBG -> 'panicking'
-VBG -> 'opening'
-VBG -> 'expanding'
+VBN -> 'disclosed'
+VBN -> 'based'
+VBN -> 'considered'
+VBN -> 'replaced'
+VBN -> 'gone'
+VBD -> 'crumbled'
+VBD -> 'was'
+VBD -> 'rose'
+VBD -> 'gained'
+VBD -> 'increased'
+VBD -> 'did'
+VBD -> 'were'
+VBD -> 'put'
+VBD -> 'ended'
+VBD -> 'moved'
+VBD -> 'went'
+VBD -> 'played'
+VBD -> 'continued'
+VBD -> 'won'
+VBD -> 'had'
+VBD -> 'contributed'
+JJ -> 'right'
+JJ -> 'soft'
+JJ -> 'pushy'
+JJ -> 'ferocious'
+JJ -> 'hard'
+JJ -> 'extraordinary'
+JJ -> 'wild'
+JJ -> 'corporate'
+JJ -> 'Serial'
+JJ -> 'old'
+JJ -> 'revised'
+JJ -> 'sole'
+JJ -> 'general'
+JJ -> 'ordinary'
+JJ -> 'Other'
+JJ -> 'related'
+JJ -> 'same'
+JJ -> 'black'
+JJ -> 'white'
+JJ -> 'Many'
+JJ -> 'other'
+JJ -> 'skeptical'
+ADJP -> RB JJ
+ADJP -> ADJP41 JJ
+ADJP40 -> DT JJ
+ADJP41 -> ADJP40 CC
+ADJP -> VBN PP
+ADJP -> ADJP42 JJ
+ADJP42 -> JJ CC
+ADJP -> JJ PP
 CD -> '6'
 CD -> '1992'
 CD -> '40'
@@ -208,733 +330,1524 @@ CD -> '2170'
 CD -> '2210'
 CD -> 'one'
 CD -> '26'
-EX -> 'there'
+CD -> '1'
+NNS -> 'incentives'
+NNS -> 'Chains'
+NNS -> 'Customers'
+NNS -> 'clients'
+NNS -> 'ads'
+NNS -> 'People'
+NNS -> 'markets'
+NNS -> 'members'
+NNS -> 'Terms'
+NNS -> 'orders'
+NNS -> 'items'
+NNS -> 'bonds'
+NNS -> 'yields'
+NNS -> 'numbers'
+NNS -> 'provisions'
+NNS -> 'concerns'
+NNS -> 'companies'
+NNS -> 'products'
+NNS -> 'points'
+NNS -> 'factors'
+NNS -> 'sales'
+NNS -> 'Things'
+PP -> IN NP
+PP -> TO NP
+PP -> IN S
+VBG -> 'selling'
+VBG -> 'panicking'
+VBG -> 'opening'
+VBG -> 'expanding'
+VBG -> 'starting'
+VBG -> 'introducing'
+VBG -> 'making'
+VBG -> 'being'
+VBG -> 'growing'
 WP -> 'who'
 JJR -> 'more'
+ADVP -> IN PP
+ADVP -> RB RB
 MD -> 'may'
+MD -> 'can'
+MD -> 'ca'
+CC -> 'or'
+CC -> 'and'
+EX -> 'There'
+RBR -> 'lower'
+RBR -> 'higher'
+PDT -> 'All'
+POS -> 'is'
+ADVP -> 'lower'
+ADVP -> 'higher'
+ADVP -> 'lower'
+ADVP -> 'higher'
 ADVP -> 'not'
 ADVP -> 'yet'
-ADVP -> 'quickly'
 ADVP -> 'very'
+ADVP -> 'together'
+ADVP -> 'pretty'
+ADVP -> 'up'
+ADVP -> 'also'
+ADVP -> 'Not'
+ADVP -> 'really'
+ADVP -> 'much'
+ADVP -> 'just'
+ADVP -> 'too'
+ADVP -> 'far'
 ADVP -> 'not'
 ADVP -> 'yet'
-ADVP -> 'quickly'
 ADVP -> 'very'
+ADVP -> 'together'
+ADVP -> 'pretty'
+ADVP -> 'up'
+ADVP -> 'also'
+ADVP -> 'Not'
+ADVP -> 'really'
+ADVP -> 'much'
+ADVP -> 'just'
+ADVP -> 'too'
+ADVP -> 'far'
 ADVP -> 'more'
 ADVP -> 'more'
 WHNP -> 'who'
 WHNP -> 'who'
-ADJP -> 'ready'
-ADJP -> 'mixed'
 ADJP -> 'right'
 ADJP -> 'soft'
 ADJP -> 'pushy'
 ADJP -> 'ferocious'
 ADJP -> 'hard'
-ADJP -> 'ready'
-ADJP -> 'mixed'
+ADJP -> 'extraordinary'
+ADJP -> 'wild'
+ADJP -> 'corporate'
+ADJP -> 'Serial'
+ADJP -> 'old'
+ADJP -> 'revised'
+ADJP -> 'sole'
+ADJP -> 'general'
+ADJP -> 'ordinary'
+ADJP -> 'Other'
+ADJP -> 'related'
+ADJP -> 'same'
+ADJP -> 'black'
+ADJP -> 'white'
+ADJP -> 'Many'
+ADJP -> 'other'
+ADJP -> 'skeptical'
 ADJP -> 'right'
 ADJP -> 'soft'
 ADJP -> 'pushy'
 ADJP -> 'ferocious'
 ADJP -> 'hard'
+ADJP -> 'extraordinary'
+ADJP -> 'wild'
+ADJP -> 'corporate'
+ADJP -> 'Serial'
+ADJP -> 'old'
+ADJP -> 'revised'
+ADJP -> 'sole'
+ADJP -> 'general'
+ADJP -> 'ordinary'
+ADJP -> 'Other'
+ADJP -> 'related'
+ADJP -> 'same'
+ADJP -> 'black'
+ADJP -> 'white'
+ADJP -> 'Many'
+ADJP -> 'other'
+ADJP -> 'skeptical'
 TOP -> NP VP
-TOP -> S14 VP
-TOP -> S15 VP
-TOP -> S16 VP
+TOP -> NP VB
 TOP -> VBZ NP
 TOP -> VB SBAR
 TOP -> TO VP
 TOP -> IN S
 TOP -> VBP VP
-TOP -> VBD ADJP
 TOP -> VBN VP
-TOP -> VP7 VP
-TOP -> VP8 PP
-TOP -> VBD S
+TOP -> VP20 VP
+TOP -> VBD ADJP
 TOP -> VBN NP
 TOP -> VBD VP
 TOP -> VBN PP
-TOP -> VBD NP
 TOP -> VBP NP
-TOP -> VP9 VP
-TOP -> VP10 PP
+TOP -> VP21 VP
+TOP -> VP22 PP
 TOP -> VBZ VP
-TOP -> VP11 VP
+TOP -> VP23 VP
 TOP -> VB NP
 TOP -> MD VP
-TOP -> VBD ADVP
+TOP -> VP24 PP
 TOP -> VB ADJP
 TOP -> VBG NP
-TOP -> VP12 VP
+TOP -> VP25 VP
 TOP -> VBP ADJP
-TOP -> VP13 PP
-TOP -> 'falling'
+TOP -> VP26 PP
+TOP -> VBD RB
+TOP -> VP27 VP
+TOP -> VP28 ADVP
+TOP -> VP29 NP
+TOP -> VBD NP
+TOP -> VP30 ADJP
+TOP -> VBG S
+TOP -> VP31 PP
+TOP -> VP32 VP
+TOP -> ADVP VBD
+TOP -> VP34 PP
+TOP -> VBG VP
+TOP -> VB PP
+TOP -> VP35 PP
+TOP -> VP37 ADVP
+TOP -> VP38 NP
+TOP -> VBN ADVP
+TOP -> VP39 VP
+TOP -> VBD PP
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> NP VP
-TOP -> S14 VP
-TOP -> S15 VP
-TOP -> S16 VP
+TOP -> NP VB
 TOP -> VBZ NP
 TOP -> VB SBAR
 TOP -> TO VP
 TOP -> IN S
 TOP -> VBP VP
-TOP -> VBD ADJP
 TOP -> VBN VP
-TOP -> VP7 VP
-TOP -> VP8 PP
-TOP -> VBD S
+TOP -> VP20 VP
+TOP -> VBD ADJP
 TOP -> VBN NP
 TOP -> VBD VP
 TOP -> VBN PP
-TOP -> VBD NP
 TOP -> VBP NP
-TOP -> VP9 VP
-TOP -> VP10 PP
+TOP -> VP21 VP
+TOP -> VP22 PP
 TOP -> VBZ VP
-TOP -> VP11 VP
+TOP -> VP23 VP
 TOP -> VB NP
 TOP -> MD VP
-TOP -> VBD ADVP
+TOP -> VP24 PP
 TOP -> VB ADJP
 TOP -> VBG NP
-TOP -> VP12 VP
+TOP -> VP25 VP
 TOP -> VBP ADJP
-TOP -> VP13 PP
-TOP -> 'falling'
+TOP -> VP26 PP
+TOP -> VBD RB
+TOP -> VP27 VP
+TOP -> VP28 ADVP
+TOP -> VP29 NP
+TOP -> VBD NP
+TOP -> VP30 ADJP
+TOP -> VBG S
+TOP -> VP31 PP
+TOP -> VP32 VP
+TOP -> ADVP VBD
+TOP -> VP34 PP
+TOP -> VBG VP
+TOP -> VB PP
+TOP -> VP35 PP
+TOP -> VP37 ADVP
+TOP -> VP38 NP
+TOP -> VBN ADVP
+TOP -> VP39 VP
+TOP -> VBD PP
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> VBZ NP
 TOP -> VB SBAR
 TOP -> TO VP
 TOP -> IN S
 TOP -> VBP VP
-TOP -> VBD ADJP
 TOP -> VBN VP
-TOP -> VP7 VP
-TOP -> VP8 PP
-TOP -> VBD S
+TOP -> VP20 VP
+TOP -> VBD ADJP
 TOP -> VBN NP
 TOP -> VBD VP
 TOP -> VBN PP
-TOP -> VBD NP
 TOP -> VBP NP
-TOP -> VP9 VP
-TOP -> VP10 PP
+TOP -> VP21 VP
+TOP -> VP22 PP
 TOP -> VBZ VP
-TOP -> VP11 VP
+TOP -> VP23 VP
 TOP -> VB NP
 TOP -> MD VP
-TOP -> VBD ADVP
+TOP -> VP24 PP
 TOP -> VB ADJP
 TOP -> VBG NP
-TOP -> VP12 VP
+TOP -> VP25 VP
 TOP -> VBP ADJP
-TOP -> VP13 PP
-TOP -> 'falling'
+TOP -> VP26 PP
+TOP -> VBD RB
+TOP -> VP27 VP
+TOP -> VP28 ADVP
+TOP -> VP29 NP
+TOP -> VBD NP
+TOP -> VP30 ADJP
+TOP -> VBG S
+TOP -> VP31 PP
+TOP -> VP32 VP
+TOP -> ADVP VBD
+TOP -> VP34 PP
+TOP -> VBG VP
+TOP -> VB PP
+TOP -> VP35 PP
+TOP -> VP37 ADVP
+TOP -> VP38 NP
+TOP -> VBN ADVP
+TOP -> VP39 VP
+TOP -> VBD PP
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'falling'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
 TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
-TOP -> 'falling'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'falling'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
 TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
-TOP -> 'falling'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'falling'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
 TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> VBZ NP
 TOP -> VB SBAR
 TOP -> TO VP
 TOP -> IN S
 TOP -> VBP VP
-TOP -> VBD ADJP
 TOP -> VBN VP
-TOP -> VP7 VP
-TOP -> VP8 PP
-TOP -> VBD S
+TOP -> VP20 VP
+TOP -> VBD ADJP
 TOP -> VBN NP
 TOP -> VBD VP
 TOP -> VBN PP
-TOP -> VBD NP
 TOP -> VBP NP
-TOP -> VP9 VP
-TOP -> VP10 PP
+TOP -> VP21 VP
+TOP -> VP22 PP
 TOP -> VBZ VP
-TOP -> VP11 VP
+TOP -> VP23 VP
 TOP -> VB NP
 TOP -> MD VP
-TOP -> VBD ADVP
+TOP -> VP24 PP
 TOP -> VB ADJP
 TOP -> VBG NP
-TOP -> VP12 VP
+TOP -> VP25 VP
 TOP -> VBP ADJP
-TOP -> VP13 PP
-TOP -> 'falling'
+TOP -> VP26 PP
+TOP -> VBD RB
+TOP -> VP27 VP
+TOP -> VP28 ADVP
+TOP -> VP29 NP
+TOP -> VBD NP
+TOP -> VP30 ADJP
+TOP -> VBG S
+TOP -> VP31 PP
+TOP -> VP32 VP
+TOP -> ADVP VBD
+TOP -> VP34 PP
+TOP -> VBG VP
+TOP -> VB PP
+TOP -> VP35 PP
+TOP -> VP37 ADVP
+TOP -> VP38 NP
+TOP -> VBN ADVP
+TOP -> VP39 VP
+TOP -> VBD PP
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> VBZ NP
 TOP -> VB SBAR
 TOP -> TO VP
 TOP -> IN S
 TOP -> VBP VP
-TOP -> VBD ADJP
 TOP -> VBN VP
-TOP -> VP7 VP
-TOP -> VP8 PP
-TOP -> VBD S
+TOP -> VP20 VP
+TOP -> VBD ADJP
 TOP -> VBN NP
 TOP -> VBD VP
 TOP -> VBN PP
-TOP -> VBD NP
 TOP -> VBP NP
-TOP -> VP9 VP
-TOP -> VP10 PP
+TOP -> VP21 VP
+TOP -> VP22 PP
 TOP -> VBZ VP
-TOP -> VP11 VP
+TOP -> VP23 VP
 TOP -> VB NP
 TOP -> MD VP
-TOP -> VBD ADVP
+TOP -> VP24 PP
 TOP -> VB ADJP
 TOP -> VBG NP
-TOP -> VP12 VP
+TOP -> VP25 VP
 TOP -> VBP ADJP
-TOP -> VP13 PP
-TOP -> 'falling'
+TOP -> VP26 PP
+TOP -> VBD RB
+TOP -> VP27 VP
+TOP -> VP28 ADVP
+TOP -> VP29 NP
+TOP -> VBD NP
+TOP -> VP30 ADJP
+TOP -> VBG S
+TOP -> VP31 PP
+TOP -> VP32 VP
+TOP -> ADVP VBD
+TOP -> VP34 PP
+TOP -> VBG VP
+TOP -> VB PP
+TOP -> VP35 PP
+TOP -> VP37 ADVP
+TOP -> VP38 NP
+TOP -> VBN ADVP
+TOP -> VP39 VP
+TOP -> VBD PP
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'falling'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
 TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
-TOP -> 'falling'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
+TOP -> 'see'
+TOP -> 'come'
+TOP -> 'feel'
+TOP -> 'sit'
+TOP -> 'tackle'
+TOP -> 'tell'
+TOP -> 'intervene'
+TOP -> 'elaborate'
+TOP -> 'live'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'falling'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'selling'
 TOP -> 'panicking'
 TOP -> 'opening'
 TOP -> 'expanding'
-TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'starting'
+TOP -> 'introducing'
+TOP -> 'making'
+TOP -> 'being'
+TOP -> 'growing'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
 TOP -> 'were'
-TOP -> 'was'
-TOP -> 'left'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'crumbled'
-TOP -> 'kept'
+TOP -> 'was'
 TOP -> 'rose'
 TOP -> 'gained'
-TOP -> 'shifted'
-TOP -> 'said'
 TOP -> 'increased'
+TOP -> 'did'
+TOP -> 'were'
+TOP -> 'put'
+TOP -> 'ended'
+TOP -> 'moved'
+TOP -> 'went'
+TOP -> 'played'
+TOP -> 'continued'
+TOP -> 'won'
+TOP -> 'had'
+TOP -> 'contributed'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'been'
 TOP -> 'set'
 TOP -> 'dated'
 TOP -> 'Ruffled'
 TOP -> 'committed'
+TOP -> 'disclosed'
+TOP -> 'based'
+TOP -> 'considered'
+TOP -> 'replaced'
+TOP -> 'gone'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 TOP -> 'plays'
 TOP -> 'works'
 TOP -> 'is'
 TOP -> 'has'
 TOP -> 'feels'
+TOP -> 'lit'
+TOP -> 'takes'
+TOP -> 'defies'
 S -> VBZ NP
 S -> VB SBAR
 S -> TO VP
 S -> IN S
 S -> VBP VP
-S -> VBD ADJP
 S -> VBN VP
-S -> VP7 VP
-S -> VP8 PP
-S -> VBD S
+S -> VP20 VP
+S -> VBD ADJP
 S -> VBN NP
 S -> VBD VP
 S -> VBN PP
-S -> VBD NP
 S -> VBP NP
-S -> VP9 VP
-S -> VP10 PP
+S -> VP21 VP
+S -> VP22 PP
 S -> VBZ VP
-S -> VP11 VP
+S -> VP23 VP
 S -> VB NP
 S -> MD VP
-S -> VBD ADVP
+S -> VP24 PP
 S -> VB ADJP
 S -> VBG NP
-S -> VP12 VP
+S -> VP25 VP
 S -> VBP ADJP
-S -> VP13 PP
-S -> 'falling'
+S -> VP26 PP
+S -> VBD RB
+S -> VP27 VP
+S -> VP28 ADVP
+S -> VP29 NP
+S -> VBD NP
+S -> VP30 ADJP
+S -> VBG S
+S -> VP31 PP
+S -> VP32 VP
+S -> ADVP VBD
+S -> VP34 PP
+S -> VBG VP
+S -> VB PP
+S -> VP35 PP
+S -> VP37 ADVP
+S -> VP38 NP
+S -> VBN ADVP
+S -> VP39 VP
+S -> VBD PP
+S -> 'see'
+S -> 'come'
+S -> 'feel'
+S -> 'sit'
+S -> 'tackle'
+S -> 'tell'
+S -> 'intervene'
+S -> 'elaborate'
+S -> 'live'
 S -> 'selling'
 S -> 'panicking'
 S -> 'opening'
 S -> 'expanding'
-S -> 'were'
-S -> 'was'
-S -> 'left'
+S -> 'starting'
+S -> 'introducing'
+S -> 'making'
+S -> 'being'
+S -> 'growing'
 S -> 'crumbled'
-S -> 'kept'
+S -> 'was'
 S -> 'rose'
 S -> 'gained'
-S -> 'shifted'
-S -> 'said'
 S -> 'increased'
+S -> 'did'
+S -> 'were'
+S -> 'put'
+S -> 'ended'
+S -> 'moved'
+S -> 'went'
+S -> 'played'
+S -> 'continued'
+S -> 'won'
+S -> 'had'
+S -> 'contributed'
 S -> 'been'
 S -> 'set'
 S -> 'dated'
 S -> 'Ruffled'
 S -> 'committed'
+S -> 'disclosed'
+S -> 'based'
+S -> 'considered'
+S -> 'replaced'
+S -> 'gone'
 S -> 'plays'
 S -> 'works'
 S -> 'is'
 S -> 'has'
 S -> 'feels'
+S -> 'lit'
+S -> 'takes'
+S -> 'defies'
 S -> VBZ NP
 S -> VB SBAR
 S -> TO VP
 S -> IN S
 S -> VBP VP
-S -> VBD ADJP
 S -> VBN VP
-S -> VP7 VP
-S -> VP8 PP
-S -> VBD S
+S -> VP20 VP
+S -> VBD ADJP
 S -> VBN NP
 S -> VBD VP
 S -> VBN PP
-S -> VBD NP
 S -> VBP NP
-S -> VP9 VP
-S -> VP10 PP
+S -> VP21 VP
+S -> VP22 PP
 S -> VBZ VP
-S -> VP11 VP
+S -> VP23 VP
 S -> VB NP
 S -> MD VP
-S -> VBD ADVP
+S -> VP24 PP
 S -> VB ADJP
 S -> VBG NP
-S -> VP12 VP
+S -> VP25 VP
 S -> VBP ADJP
-S -> VP13 PP
-S -> 'falling'
+S -> VP26 PP
+S -> VBD RB
+S -> VP27 VP
+S -> VP28 ADVP
+S -> VP29 NP
+S -> VBD NP
+S -> VP30 ADJP
+S -> VBG S
+S -> VP31 PP
+S -> VP32 VP
+S -> ADVP VBD
+S -> VP34 PP
+S -> VBG VP
+S -> VB PP
+S -> VP35 PP
+S -> VP37 ADVP
+S -> VP38 NP
+S -> VBN ADVP
+S -> VP39 VP
+S -> VBD PP
+S -> 'see'
+S -> 'come'
+S -> 'feel'
+S -> 'sit'
+S -> 'tackle'
+S -> 'tell'
+S -> 'intervene'
+S -> 'elaborate'
+S -> 'live'
+S -> 'see'
+S -> 'come'
+S -> 'feel'
+S -> 'sit'
+S -> 'tackle'
+S -> 'tell'
+S -> 'intervene'
+S -> 'elaborate'
+S -> 'live'
 S -> 'selling'
 S -> 'panicking'
 S -> 'opening'
 S -> 'expanding'
-S -> 'falling'
+S -> 'starting'
+S -> 'introducing'
+S -> 'making'
+S -> 'being'
+S -> 'growing'
 S -> 'selling'
 S -> 'panicking'
 S -> 'opening'
 S -> 'expanding'
-S -> 'were'
-S -> 'was'
-S -> 'left'
+S -> 'starting'
+S -> 'introducing'
+S -> 'making'
+S -> 'being'
+S -> 'growing'
 S -> 'crumbled'
-S -> 'kept'
+S -> 'was'
 S -> 'rose'
 S -> 'gained'
-S -> 'shifted'
-S -> 'said'
 S -> 'increased'
+S -> 'did'
 S -> 'were'
-S -> 'was'
-S -> 'left'
+S -> 'put'
+S -> 'ended'
+S -> 'moved'
+S -> 'went'
+S -> 'played'
+S -> 'continued'
+S -> 'won'
+S -> 'had'
+S -> 'contributed'
 S -> 'crumbled'
-S -> 'kept'
+S -> 'was'
 S -> 'rose'
 S -> 'gained'
-S -> 'shifted'
-S -> 'said'
 S -> 'increased'
+S -> 'did'
+S -> 'were'
+S -> 'put'
+S -> 'ended'
+S -> 'moved'
+S -> 'went'
+S -> 'played'
+S -> 'continued'
+S -> 'won'
+S -> 'had'
+S -> 'contributed'
 S -> 'been'
 S -> 'set'
 S -> 'dated'
 S -> 'Ruffled'
 S -> 'committed'
+S -> 'disclosed'
+S -> 'based'
+S -> 'considered'
+S -> 'replaced'
+S -> 'gone'
 S -> 'been'
 S -> 'set'
 S -> 'dated'
 S -> 'Ruffled'
 S -> 'committed'
+S -> 'disclosed'
+S -> 'based'
+S -> 'considered'
+S -> 'replaced'
+S -> 'gone'
 S -> 'plays'
 S -> 'works'
 S -> 'is'
 S -> 'has'
 S -> 'feels'
+S -> 'lit'
+S -> 'takes'
+S -> 'defies'
 S -> 'plays'
 S -> 'works'
 S -> 'is'
 S -> 'has'
 S -> 'feels'
-S -> 'falling'
+S -> 'lit'
+S -> 'takes'
+S -> 'defies'
+S -> 'see'
+S -> 'come'
+S -> 'feel'
+S -> 'sit'
+S -> 'tackle'
+S -> 'tell'
+S -> 'intervene'
+S -> 'elaborate'
+S -> 'live'
+S -> 'see'
+S -> 'come'
+S -> 'feel'
+S -> 'sit'
+S -> 'tackle'
+S -> 'tell'
+S -> 'intervene'
+S -> 'elaborate'
+S -> 'live'
 S -> 'selling'
 S -> 'panicking'
 S -> 'opening'
 S -> 'expanding'
-S -> 'falling'
+S -> 'starting'
+S -> 'introducing'
+S -> 'making'
+S -> 'being'
+S -> 'growing'
 S -> 'selling'
 S -> 'panicking'
 S -> 'opening'
 S -> 'expanding'
-S -> 'were'
-S -> 'was'
-S -> 'left'
+S -> 'starting'
+S -> 'introducing'
+S -> 'making'
+S -> 'being'
+S -> 'growing'
 S -> 'crumbled'
-S -> 'kept'
+S -> 'was'
 S -> 'rose'
 S -> 'gained'
-S -> 'shifted'
-S -> 'said'
 S -> 'increased'
+S -> 'did'
 S -> 'were'
-S -> 'was'
-S -> 'left'
+S -> 'put'
+S -> 'ended'
+S -> 'moved'
+S -> 'went'
+S -> 'played'
+S -> 'continued'
+S -> 'won'
+S -> 'had'
+S -> 'contributed'
 S -> 'crumbled'
-S -> 'kept'
+S -> 'was'
 S -> 'rose'
 S -> 'gained'
-S -> 'shifted'
-S -> 'said'
 S -> 'increased'
+S -> 'did'
+S -> 'were'
+S -> 'put'
+S -> 'ended'
+S -> 'moved'
+S -> 'went'
+S -> 'played'
+S -> 'continued'
+S -> 'won'
+S -> 'had'
+S -> 'contributed'
 S -> 'been'
 S -> 'set'
 S -> 'dated'
 S -> 'Ruffled'
 S -> 'committed'
+S -> 'disclosed'
+S -> 'based'
+S -> 'considered'
+S -> 'replaced'
+S -> 'gone'
 S -> 'been'
 S -> 'set'
 S -> 'dated'
 S -> 'Ruffled'
 S -> 'committed'
+S -> 'disclosed'
+S -> 'based'
+S -> 'considered'
+S -> 'replaced'
+S -> 'gone'
 S -> 'plays'
 S -> 'works'
 S -> 'is'
 S -> 'has'
 S -> 'feels'
+S -> 'lit'
+S -> 'takes'
+S -> 'defies'
 S -> 'plays'
 S -> 'works'
 S -> 'is'
 S -> 'has'
 S -> 'feels'
-VP -> 'falling'
+S -> 'lit'
+S -> 'takes'
+S -> 'defies'
+VP -> 'see'
+VP -> 'come'
+VP -> 'feel'
+VP -> 'sit'
+VP -> 'tackle'
+VP -> 'tell'
+VP -> 'intervene'
+VP -> 'elaborate'
+VP -> 'live'
+VP -> 'see'
+VP -> 'come'
+VP -> 'feel'
+VP -> 'sit'
+VP -> 'tackle'
+VP -> 'tell'
+VP -> 'intervene'
+VP -> 'elaborate'
+VP -> 'live'
 VP -> 'selling'
 VP -> 'panicking'
 VP -> 'opening'
 VP -> 'expanding'
-VP -> 'falling'
+VP -> 'starting'
+VP -> 'introducing'
+VP -> 'making'
+VP -> 'being'
+VP -> 'growing'
 VP -> 'selling'
 VP -> 'panicking'
 VP -> 'opening'
 VP -> 'expanding'
-VP -> 'were'
-VP -> 'was'
-VP -> 'left'
+VP -> 'starting'
+VP -> 'introducing'
+VP -> 'making'
+VP -> 'being'
+VP -> 'growing'
 VP -> 'crumbled'
-VP -> 'kept'
+VP -> 'was'
 VP -> 'rose'
 VP -> 'gained'
-VP -> 'shifted'
-VP -> 'said'
 VP -> 'increased'
+VP -> 'did'
 VP -> 'were'
-VP -> 'was'
-VP -> 'left'
+VP -> 'put'
+VP -> 'ended'
+VP -> 'moved'
+VP -> 'went'
+VP -> 'played'
+VP -> 'continued'
+VP -> 'won'
+VP -> 'had'
+VP -> 'contributed'
 VP -> 'crumbled'
-VP -> 'kept'
+VP -> 'was'
 VP -> 'rose'
 VP -> 'gained'
-VP -> 'shifted'
-VP -> 'said'
 VP -> 'increased'
+VP -> 'did'
+VP -> 'were'
+VP -> 'put'
+VP -> 'ended'
+VP -> 'moved'
+VP -> 'went'
+VP -> 'played'
+VP -> 'continued'
+VP -> 'won'
+VP -> 'had'
+VP -> 'contributed'
 VP -> 'been'
 VP -> 'set'
 VP -> 'dated'
 VP -> 'Ruffled'
 VP -> 'committed'
+VP -> 'disclosed'
+VP -> 'based'
+VP -> 'considered'
+VP -> 'replaced'
+VP -> 'gone'
 VP -> 'been'
 VP -> 'set'
 VP -> 'dated'
 VP -> 'Ruffled'
 VP -> 'committed'
+VP -> 'disclosed'
+VP -> 'based'
+VP -> 'considered'
+VP -> 'replaced'
+VP -> 'gone'
 VP -> 'plays'
 VP -> 'works'
 VP -> 'is'
 VP -> 'has'
 VP -> 'feels'
+VP -> 'lit'
+VP -> 'takes'
+VP -> 'defies'
 VP -> 'plays'
 VP -> 'works'
 VP -> 'is'
 VP -> 'has'
 VP -> 'feels'
+VP -> 'lit'
+VP -> 'takes'
+VP -> 'defies'
+NP -> 'right'
+NP -> 'soft'
+NP -> 'pushy'
+NP -> 'ferocious'
+NP -> 'hard'
+NP -> 'extraordinary'
+NP -> 'wild'
+NP -> 'corporate'
+NP -> 'Serial'
+NP -> 'old'
+NP -> 'revised'
+NP -> 'sole'
+NP -> 'general'
+NP -> 'ordinary'
+NP -> 'Other'
+NP -> 'related'
+NP -> 'same'
+NP -> 'black'
+NP -> 'white'
+NP -> 'Many'
+NP -> 'other'
+NP -> 'skeptical'
+NP -> 'right'
+NP -> 'soft'
+NP -> 'pushy'
+NP -> 'ferocious'
+NP -> 'hard'
+NP -> 'extraordinary'
+NP -> 'wild'
+NP -> 'corporate'
+NP -> 'Serial'
+NP -> 'old'
+NP -> 'revised'
+NP -> 'sole'
+NP -> 'general'
+NP -> 'ordinary'
+NP -> 'Other'
+NP -> 'related'
+NP -> 'same'
+NP -> 'black'
+NP -> 'white'
+NP -> 'Many'
+NP -> 'other'
+NP -> 'skeptical'
+NP -> 'There'
+NP -> 'There'
 NP -> '6'
 NP -> '1992'
 NP -> '40'
@@ -942,6 +1855,7 @@ NP -> '2170'
 NP -> '2210'
 NP -> 'one'
 NP -> '26'
+NP -> '1'
 NP -> '6'
 NP -> '1992'
 NP -> '40'
@@ -949,60 +1863,81 @@ NP -> '2170'
 NP -> '2210'
 NP -> 'one'
 NP -> '26'
-NP -> 'there'
-NP -> 'there'
-NP -> 'firms'
-NP -> 'signals'
-NP -> 'stocks'
+NP -> '1'
 NP -> 'incentives'
 NP -> 'Chains'
 NP -> 'Customers'
-NP -> 'buyers'
 NP -> 'clients'
 NP -> 'ads'
 NP -> 'People'
-NP -> 'traders'
 NP -> 'markets'
 NP -> 'members'
-NP -> 'firms'
-NP -> 'signals'
-NP -> 'stocks'
+NP -> 'Terms'
+NP -> 'orders'
+NP -> 'items'
+NP -> 'bonds'
+NP -> 'yields'
+NP -> 'numbers'
+NP -> 'provisions'
+NP -> 'concerns'
+NP -> 'companies'
+NP -> 'products'
+NP -> 'points'
+NP -> 'factors'
+NP -> 'sales'
+NP -> 'Things'
 NP -> 'incentives'
 NP -> 'Chains'
 NP -> 'Customers'
-NP -> 'buyers'
 NP -> 'clients'
 NP -> 'ads'
 NP -> 'People'
-NP -> 'traders'
 NP -> 'markets'
 NP -> 'members'
-NP -> 'This'
-NP -> 'the'
+NP -> 'Terms'
+NP -> 'orders'
+NP -> 'items'
+NP -> 'bonds'
+NP -> 'yields'
+NP -> 'numbers'
+NP -> 'provisions'
+NP -> 'concerns'
+NP -> 'companies'
+NP -> 'products'
+NP -> 'points'
+NP -> 'factors'
+NP -> 'sales'
+NP -> 'Things'
 NP -> 'That'
 NP -> 'A'
 NP -> 'The'
 NP -> 'Some'
-NP -> 'no'
 NP -> 'a'
-NP -> 'either'
 NP -> 'This'
+NP -> 'either'
 NP -> 'the'
+NP -> 'some'
+NP -> 'any'
+NP -> 'both'
+NP -> 'that'
+NP -> 'this'
 NP -> 'That'
 NP -> 'A'
 NP -> 'The'
 NP -> 'Some'
-NP -> 'no'
 NP -> 'a'
+NP -> 'This'
 NP -> 'either'
+NP -> 'the'
+NP -> 'some'
+NP -> 'any'
+NP -> 'both'
+NP -> 'that'
+NP -> 'this'
 NP -> 'advertising'
-NP -> 'time'
 NP -> 'baseball'
 NP -> 'record'
 NP -> 'date'
-NP -> 'lunchtime'
-NP -> 'selling'
-NP -> 'fever'
 NP -> 'market'
 NP -> 'letter'
 NP -> 'Loss'
@@ -1013,19 +1948,46 @@ NP -> 'fellow'
 NP -> 'deal'
 NP -> 'test'
 NP -> 'today'
-NP -> 'Investor'
-NP -> 'focus'
 NP -> 'program'
 NP -> 'trade'
 NP -> 'board'
+NP -> 'pipe'
+NP -> 'day'
+NP -> 'point'
+NP -> 'bond'
+NP -> 'percentage'
+NP -> 'partner'
+NP -> 'color'
+NP -> 'problem'
+NP -> 'appeal'
+NP -> 'price'
+NP -> 'dollar'
+NP -> 'gain'
+NP -> 'part'
+NP -> 'yesterday'
+NP -> 'comeback'
+NP -> 'everybody'
+NP -> 'money'
+NP -> 'asset'
+NP -> 'foray'
+NP -> 'perception'
+NP -> 'focus'
+NP -> 'magazine'
+NP -> 'industry'
+NP -> 'device'
+NP -> 'core'
+NP -> 'rate'
+NP -> 'line'
+NP -> 'woman'
+NP -> 'bet'
+NP -> 'concern'
+NP -> 'characterization'
+NP -> 'article'
+NP -> 'system'
 NP -> 'advertising'
-NP -> 'time'
 NP -> 'baseball'
 NP -> 'record'
 NP -> 'date'
-NP -> 'lunchtime'
-NP -> 'selling'
-NP -> 'fever'
 NP -> 'market'
 NP -> 'letter'
 NP -> 'Loss'
@@ -1036,28 +1998,59 @@ NP -> 'fellow'
 NP -> 'deal'
 NP -> 'test'
 NP -> 'today'
-NP -> 'Investor'
-NP -> 'focus'
 NP -> 'program'
 NP -> 'trade'
 NP -> 'board'
+NP -> 'pipe'
+NP -> 'day'
+NP -> 'point'
+NP -> 'bond'
+NP -> 'percentage'
+NP -> 'partner'
+NP -> 'color'
+NP -> 'problem'
+NP -> 'appeal'
+NP -> 'price'
+NP -> 'dollar'
+NP -> 'gain'
+NP -> 'part'
+NP -> 'yesterday'
+NP -> 'comeback'
+NP -> 'everybody'
+NP -> 'money'
+NP -> 'asset'
+NP -> 'foray'
+NP -> 'perception'
+NP -> 'focus'
+NP -> 'magazine'
+NP -> 'industry'
+NP -> 'device'
+NP -> 'core'
+NP -> 'rate'
+NP -> 'line'
+NP -> 'woman'
+NP -> 'bet'
+NP -> 'concern'
+NP -> 'characterization'
+NP -> 'article'
+NP -> 'system'
 NP -> 'We'
-NP -> 'it'
 NP -> 'He'
-NP -> 'IT'
 NP -> 'I'
+NP -> 'They'
+NP -> 'It'
+NP -> 'You'
 NP -> 'We'
-NP -> 'it'
 NP -> 'He'
-NP -> 'IT'
 NP -> 'I'
+NP -> 'They'
+NP -> 'It'
+NP -> 'You'
 NP -> 'Miss'
 NP -> 'Haag'
 NP -> 'Elianti'
-NP -> 'London'
 NP -> 'October'
 NP -> 'Chicken'
-NP -> 'CALL'
 NP -> 'Pittsburgh'
 NP -> 'David'
 NP -> 'Bear'
@@ -1072,13 +2065,24 @@ NP -> 'Development'
 NP -> 'Heiwa'
 NP -> 'Real'
 NP -> 'Estate'
+NP -> 'Holmes'
+NP -> 'Toronto'
+NP -> 'Goldberg'
+NP -> 'Rose'
+NP -> 'Partners'
+NP -> 'Gold'
+NP -> 'Tokyo'
+NP -> 'Police'
+NP -> 'NCNB'
+NP -> 'Florida'
+NP -> 'Texas'
+NP -> 'John'
+NP -> 'Yang'
 NP -> 'Miss'
 NP -> 'Haag'
 NP -> 'Elianti'
-NP -> 'London'
 NP -> 'October'
 NP -> 'Chicken'
-NP -> 'CALL'
 NP -> 'Pittsburgh'
 NP -> 'David'
 NP -> 'Bear'
@@ -1093,3 +2097,16 @@ NP -> 'Development'
 NP -> 'Heiwa'
 NP -> 'Real'
 NP -> 'Estate'
+NP -> 'Holmes'
+NP -> 'Toronto'
+NP -> 'Goldberg'
+NP -> 'Rose'
+NP -> 'Partners'
+NP -> 'Gold'
+NP -> 'Tokyo'
+NP -> 'Police'
+NP -> 'NCNB'
+NP -> 'Florida'
+NP -> 'Texas'
+NP -> 'John'
+NP -> 'Yang'
