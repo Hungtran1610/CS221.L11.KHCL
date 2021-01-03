@@ -1,3 +1,7 @@
+TOP -> S
+S -> NP VP
+S -> VP
+S -> NP VB
 NNP -> 'Miss'
 NNP -> 'Haag'
 NNP -> 'Elianti'
@@ -124,9 +128,6 @@ VP -> VBZ ADVP NP
 VP -> VBN ADVP
 VP -> VBD ADVP VP
 VP -> VBD PP
-S -> NP VP
-S -> VP
-S -> NP VB
 PRP -> 'We'
 PRP -> 'He'
 PRP -> 'I'
@@ -215,7 +216,6 @@ NN -> 'article'
 NN -> 'system'
 SBAR -> IN S
 SBAR -> WHNP S
-TOP -> S
 DT -> 'That'
 DT -> 'A'
 DT -> 'The'
