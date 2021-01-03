@@ -58,3 +58,5 @@
 (TOP (S (NP (NNS Things)) (VP (VBD had) (ADVP (RB just)) (VP (VBN gone) (ADVP (RB too) (RB far))))))
 (TOP (S (NP (NNP John) (NNP Yang)) (VP (VBD contributed) (PP (TO to) (NP (DT this) (NN article))))))
 (TOP (S (NP (DT The) (NN system)) (VP (VBZ is) (NP (DT the) (NN problem)))))
+The system can not say the same with black and white
+(TOP (S (NP (DT The) (NN system)) (VP (MD can) (RB not) (VP (VB say) (NP (DT the) (JJ same)) (PP (IN with) (NP (JJ black) (CC and) (JJ white)))))))

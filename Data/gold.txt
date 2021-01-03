@@ -2,4 +2,3 @@
 (TOP (S (NP (NNP Holmes)) (VP (VBZ is) (NP (DT the) (NN problem)))))
 (TOP (S (NP (PRP He)) (VP (VBP say) (NP (NNP November)))))
 (TOP (S (NP (PRP We)) (VP (VBD was) (VP (VBN replaced)))))
-(TOP (S (NP (DT The) (NN system)) (VP (MD can) (RB not) (VP (VB say) (NP (DT the) (JJ same)) (PP (IN with) (NP (JJ black) (CC and) (JJ white)))))))

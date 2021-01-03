@@ -29,7 +29,8 @@ class Parser:
         self.parse_table = None
         self.grammar = None
         self.convert_grammar(grammar)
-        self.load_sentence(sentence)
+        # self.load_sentence(sentence)
+        self.input = sentence.split()
 
     def load_sentence(self, sentence):
         """
@@ -105,13 +106,12 @@ class Parser:
             if write:
                 print("Possible parse(s):")
                 write_trees = [generate_tree(node) for node in final_nodes]
-                for tree in write_trees:
-                    print(tree)
+                return write_trees
             # draw the parse tree
-            if draw:
-                draw_trees = [visual_tree(node) for node in final_nodes]
-                for tree in draw_trees:
-                    tree.draw()
+            # if draw:
+            #     draw_trees = [visual_tree(node) for node in final_nodes]
+            #     for tree in draw_trees:
+            #         tree.draw()
         else:
             print("Sorry! The given sentence is not contained in the language produced by the given grammar")
 
@@ -121,8 +121,8 @@ def generate_tree(node):
     :param node: the root node.
     """
     if node.child2 is None:
-        return f"[{node.parent} '{node.child1}']"
-    return f"[{node.parent} {generate_tree(node.child1)} {generate_tree(node.child2)}]"
+        return f"({node.parent} {node.child1})"
+    return f"({node.parent} {generate_tree(node.child1)} {generate_tree(node.child2)})"
 
 
 def visual_tree(node):
@@ -139,6 +139,16 @@ if __name__ == '__main__':
     parser.add_argument("grammar")
     parser.add_argument("sentence")
     args = parser.parse_args()
-    CKY = Parser(args.grammar, args.sentence)
-    CKY.parse()
-    CKY.print_tree()
+
+    data = open(args.sentence)
+    lines = data.readlines()
+    f = open("input.txt", "w")
+
+    for line in lines:
+        CKY = Parser(args.grammar, line)
+        CKY.parse()
+        trees = CKY.print_tree()
+        f.writelines(trees[0] + '\n')
+    
+    f.close()
+        # import pdb; pdb.set_trace()
