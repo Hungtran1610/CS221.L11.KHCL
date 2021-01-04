@@ -1,0 +1,358 @@
+TOP -> S
+S -> NP VP
+S -> VP
+S -> NP VB
+NNP -> 'Miss'
+NNP -> 'Haag'
+NNP -> 'Elianti'
+NNP -> 'October'
+NNP -> 'Chicken'
+NNP -> 'Pittsburgh'
+NNP -> 'David'
+NNP -> 'Bear'
+NNP -> 'Mister'
+NNP -> 'Bandow'
+NNP -> 'Cato'
+NNP -> 'Institute'
+NNP -> 'November'
+NNP -> 'Sumitomo'
+NNP -> 'Realty'
+NNP -> 'Development'
+NNP -> 'Heiwa'
+NNP -> 'Real'
+NNP -> 'Estate'
+NNP -> 'Holmes'
+NNP -> 'Toronto'
+NNP -> 'Goldberg'
+NNP -> 'Rose'
+NNP -> 'Partners'
+NNP -> 'Gold'
+NNP -> 'Tokyo'
+NNP -> 'Police'
+NNP -> 'NCNB'
+NNP -> 'Florida'
+NNP -> 'Texas'
+NNP -> 'John'
+NNP -> 'Yang'
+VBZ -> 'plays'
+VBZ -> 'works'
+VBZ -> 'is'
+VBZ -> 'has'
+VBZ -> 'feels'
+VBZ -> 'lit'
+VBZ -> 'takes'
+VBZ -> 'defies'
+NP -> NNP NNP
+NP -> NNP
+NP -> PRP
+NP -> NN
+NP -> DT
+NP -> DT NN NN
+NP -> DT NN
+NP -> NNP CD
+NP -> NNP NNS
+NP -> NNS
+NP -> NP PP
+NP -> NNP NN NNP NNP
+NP -> DT JJ NN
+NP -> JJ NNS
+NP -> NP SBAR
+NP -> DT NNP NNP NN
+NP -> CD
+NP -> NNP NNP NNP
+NP -> CD NNS
+NP -> DT NNS
+NP -> EX
+NP -> DT JJ NNS
+NP -> DT ADJP NN
+NP -> JJ NN NNS
+NP -> DT ADJP NNS
+NP -> NP NP
+NP -> PDT DT NNS
+NP -> DT JJ JJ NN
+NP -> DT JJ
+NP -> JJ CC JJ
+NP -> JJ
+NP -> JJ JJ NNS
+NP -> NN POS
+NP -> NP NN
+NP -> RB NN
+NP -> NP VP
+NP -> DT NNP CC NNP NNS
+NP -> DT VBG NN
+VP -> VBZ NP
+VP -> VBZ
+VP -> VB SBAR
+VP -> TO VP
+VP -> IN S
+VP -> VBP VP
+VP -> VBN
+VP -> VBN VP
+VP -> VBZ RB VP
+VP -> VBD
+VP -> VBD ADJP
+VP -> VBN NP
+VP -> VBD VP
+VP -> VBN PP
+VP -> VBP NP
+VP -> VP RB VP
+VP -> VBG NP PP
+VP -> VBZ VP
+VP -> VBG
+VP -> VBP RB VP
+VP -> VB NP
+VP -> MD VP
+VP -> VBD NP PP
+VP -> VB ADJP
+VP -> VBG NP
+VP -> VP CC VP
+VP -> VBP ADJP
+VP -> VBD PP PP
+VP -> VBD RB
+VP -> VBD RB VP
+VP -> VBD NP ADVP
+VP -> VBD RB NP
+VP -> VBD NP
+VP -> VBZ RB ADJP
+VP -> VBG S
+VP -> VB NP PP
+VP -> MD RB VP
+VP -> ADVP VBD
+VP -> ADVP VBD ADVP PP
+VP -> VB
+VP -> VBG VP
+VP -> VB PP
+VP -> VBZ NP PP
+VP -> VBZ RB ADVP ADVP
+VP -> VBZ ADVP NP
+VP -> VBN ADVP
+VP -> VBD ADVP VP
+VP -> VBD PP
+PRP -> 'We'
+PRP -> 'He'
+PRP -> 'I'
+PRP -> 'They'
+PRP -> 'It'
+PRP -> 'You'
+VBP -> 'are'
+VBP -> 'give'
+VBP -> 'want'
+VBP -> 'shun'
+VBP -> 'say'
+VBP -> 'do'
+VBP -> 'feel'
+VBP -> 'include'
+IN -> 'about'
+IN -> 'if'
+IN -> 'By'
+IN -> 'of'
+IN -> 'like'
+IN -> 'by'
+IN -> 'in'
+IN -> 'with'
+IN -> 'on'
+IN -> 'into'
+IN -> 'off'
+IN -> 'out'
+TO -> 'to'
+VB -> 'see'
+VB -> 'come'
+VB -> 'feel'
+VB -> 'sit'
+VB -> 'tackle'
+VB -> 'tell'
+VB -> 'intervene'
+VB -> 'elaborate'
+VB -> 'live'
+NN -> 'advertising'
+NN -> 'baseball'
+NN -> 'record'
+NN -> 'date'
+NN -> 'market'
+NN -> 'letter'
+NN -> 'Loss'
+NN -> 'consultant'
+NN -> 'approach'
+NN -> 'exposure'
+NN -> 'fellow'
+NN -> 'deal'
+NN -> 'test'
+NN -> 'today'
+NN -> 'program'
+NN -> 'trade'
+NN -> 'board'
+NN -> 'pipe'
+NN -> 'day'
+NN -> 'point'
+NN -> 'bond'
+NN -> 'percentage'
+NN -> 'partner'
+NN -> 'color'
+NN -> 'problem'
+NN -> 'appeal'
+NN -> 'price'
+NN -> 'dollar'
+NN -> 'gain'
+NN -> 'part'
+NN -> 'yesterday'
+NN -> 'comeback'
+NN -> 'everybody'
+NN -> 'money'
+NN -> 'asset'
+NN -> 'foray'
+NN -> 'perception'
+NN -> 'focus'
+NN -> 'magazine'
+NN -> 'industry'
+NN -> 'device'
+NN -> 'core'
+NN -> 'rate'
+NN -> 'line'
+NN -> 'woman'
+NN -> 'bet'
+NN -> 'concern'
+NN -> 'characterization'
+NN -> 'article'
+NN -> 'system'
+SBAR -> IN S
+SBAR -> WHNP S
+DT -> 'That'
+DT -> 'A'
+DT -> 'The'
+DT -> 'Some'
+DT -> 'a'
+DT -> 'This'
+DT -> 'either'
+DT -> 'the'
+DT -> 'some'
+DT -> 'any'
+DT -> 'both'
+DT -> 'that'
+DT -> 'this'
+RB -> 'not'
+RB -> 'yet'
+RB -> 'very'
+RB -> 'together'
+RB -> 'pretty'
+RB -> 'up'
+RB -> 'also'
+RB -> 'Not'
+RB -> 'really'
+RB -> 'much'
+RB -> 'just'
+RB -> 'too'
+RB -> 'far'
+VBN -> 'been'
+VBN -> 'set'
+VBN -> 'dated'
+VBN -> 'Ruffled'
+VBN -> 'committed'
+VBN -> 'disclosed'
+VBN -> 'based'
+VBN -> 'considered'
+VBN -> 'replaced'
+VBN -> 'gone'
+VBD -> 'crumbled'
+VBD -> 'was'
+VBD -> 'rose'
+VBD -> 'gained'
+VBD -> 'increased'
+VBD -> 'did'
+VBD -> 'were'
+VBD -> 'put'
+VBD -> 'ended'
+VBD -> 'moved'
+VBD -> 'went'
+VBD -> 'played'
+VBD -> 'continued'
+VBD -> 'won'
+VBD -> 'had'
+VBD -> 'contributed'
+JJ -> 'right'
+JJ -> 'soft'
+JJ -> 'pushy'
+JJ -> 'ferocious'
+JJ -> 'hard'
+JJ -> 'extraordinary'
+JJ -> 'wild'
+JJ -> 'corporate'
+JJ -> 'Serial'
+JJ -> 'old'
+JJ -> 'revised'
+JJ -> 'sole'
+JJ -> 'general'
+JJ -> 'ordinary'
+JJ -> 'Other'
+JJ -> 'related'
+JJ -> 'same'
+JJ -> 'black'
+JJ -> 'white'
+JJ -> 'Many'
+JJ -> 'other'
+JJ -> 'skeptical'
+ADJP -> JJ
+ADJP -> RB JJ
+ADJP -> DT JJ CC JJ
+ADJP -> VBN PP
+ADJP -> JJ CC JJ
+ADJP -> JJ PP
+CD -> '6'
+CD -> '1992'
+CD -> '40'
+CD -> '2170'
+CD -> '2210'
+CD -> 'one'
+CD -> '26'
+CD -> '1'
+NNS -> 'incentives'
+NNS -> 'Chains'
+NNS -> 'Customers'
+NNS -> 'clients'
+NNS -> 'ads'
+NNS -> 'People'
+NNS -> 'markets'
+NNS -> 'members'
+NNS -> 'Terms'
+NNS -> 'orders'
+NNS -> 'items'
+NNS -> 'bonds'
+NNS -> 'yields'
+NNS -> 'numbers'
+NNS -> 'provisions'
+NNS -> 'concerns'
+NNS -> 'companies'
+NNS -> 'products'
+NNS -> 'points'
+NNS -> 'factors'
+NNS -> 'sales'
+NNS -> 'Things'
+PP -> IN NP
+PP -> TO NP
+PP -> IN S
+VBG -> 'selling'
+VBG -> 'panicking'
+VBG -> 'opening'
+VBG -> 'expanding'
+VBG -> 'starting'
+VBG -> 'introducing'
+VBG -> 'making'
+VBG -> 'being'
+VBG -> 'growing'
+WP -> 'who'
+WHNP -> WP
+JJR -> 'more'
+ADVP -> JJR
+ADVP -> RB
+ADVP -> RBR
+ADVP -> IN PP
+ADVP -> RB RB
+MD -> 'may'
+MD -> 'can'
+MD -> 'ca'
+CC -> 'or'
+CC -> 'and'
+EX -> 'There'
+RBR -> 'lower'
+RBR -> 'higher'
+PDT -> 'All'
+POS -> 'is'

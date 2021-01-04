@@ -1,0 +1,5 @@
+(S (NP (NNP Holmes)) (VP (VBZ lit) (NP (DT a) (NN pipe))))
+(TOP (S (NP (NNP Holmes)) (VB sat)))
+(TOP (S (NP (NNP Holmes)) (VP (VBZ is) (NP (DT the) (NN problem)))))
+(TOP (S (NP (PRP He)) (VP (VBP say) (NP (NNP November)))))
+(TOP (S (NP (DT That)) (VP (VBZ is) (NP (DT the) (NN partner)))))

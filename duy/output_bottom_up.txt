@@ -1,0 +1,5 @@
+(S (NP (N Holmes)) (VP (VP (V lit)) (NP (Det a) (N pipe))))
+(S (NP (N Holmes)) (VP (V sat)))
+(S (NP (N Holmes)) (VP (VP (V is)) (NP (Det the) (N problem))))
+(S (NP (N He)) (VP (VP (V say)) (NP (N November))))
+(S (NP (N That)) (VP (VP (V is)) (NP (Det the) (N partner))))

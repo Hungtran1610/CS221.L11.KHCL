@@ -65,8 +65,8 @@ class Parser:
         # with each column filled from bottom to top
         self.parse_table = [[[] for i in range(length)] for j in range(length)]
         # import pdb; pdb.set_trace()
-        for line in self.parse_table:
-            print(line)
+        # for line in self.parse_table:
+        #     print(line)
         for j, word in enumerate(self.input):
             # go through every column, from left to right
             for rule in self.grammar:
@@ -86,8 +86,8 @@ class Parser:
                                 [Node(rule[0], child1, child2) for child1 in child1_node for child2 in child2_node]
                             )
         
-        for line in self.parse_table:
-            print(line)
+        # for line in self.parse_table:
+        #     print(line)
 
     def print_tree(self, write=True, draw=True):
         """
@@ -142,11 +142,12 @@ if __name__ == '__main__':
 
     data = open(args.sentence)
     lines = data.readlines()
-    f = open("input.txt", "w")
+    f = open("DATA/output.txt", "w")
 
     for line in lines:
         CKY = Parser(args.grammar, line)
         CKY.parse()
+        print('parse' + line)
         trees = CKY.print_tree()
         f.writelines(trees[0] + '\n')
     

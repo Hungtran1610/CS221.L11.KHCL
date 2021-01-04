@@ -14,14 +14,14 @@ inputs = open('./Data/test.txt')
 input_lines = inputs.readlines()
 
 parser = nltk.EarleyChartParser(grammar)
-f = open("output_nltk.txt", "w")
+f = open("./Data/output_nltk.txt", "w")
 
 for line in input_lines:
     INDEX = 0
-    for tree in parser.parse(line.split() + '\n'):
+    for tree in parser.parse(line.split()):
         if INDEX == 1:
             continue
-        result.append(str(tree.pformat()))
+        result.append(str(tree.pformat()) + '\n')
         f.writelines(str(tree.pformat()))
         INDEX += 1
 

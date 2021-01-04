@@ -1,0 +1,7 @@
+(TOP (S (NP (NP (NNP Miss)) (NP (NNP Haag))) (VP (VBZ plays) (NP (NP (NNP Holmes)) (NP (NNP Sumitomo))))))
+(TOP (S (NP (NNP Holmes)) (VP (VBZ is) (NP (NP (DT the)) (NP (NN problem))))))
+(TOP (S (NP (PRP He)) (VP (VBP say) (NP (NNP November)))))
+(TOP (S (NP (NP (PRP We)) (VP (VBD was))) (VP (VBN replaced))))
+(TOP (S (NP (NP (NNP Miss)) (NP (NNP Holmes))) (VP (VBP say) (NP (CD 1992)))))
+(TOP (S (NP (NP (DT The)) (NP (NN date))) (VP (MD may) (VP (VB come) (NP (NN today))))))
+(TOP (S (NP (DT That)) (VP (VBZ is) (NP (NP (DT the)) (NP (NN partner))))))

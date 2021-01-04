@@ -1,0 +1,17 @@
+Adj -> "dreadful" | "enigmatical" | "little" | "moist" | "red" | "blue" | "yellow" | "big" | "good" | "bad" | "new" 
+Adj -> "vietnamese" | "spanish" | "portuguese" | "european" | "champion" | "english" |"calm" | "near" | "born" | "best"
+Adv -> "down" | "here" | "never" | "well" | "calm"
+Conj -> "and" | "until" | "before" | "after"
+Det -> "a" | "an" | "his" | "my" | "the"
+N -> "armchair" | "companion" | "day" | "door" | "hand" | "he" | "himself" |  "country" | "ronaldo" |"club" | "pho" | "it" | "boyfriend" |" world" | "team" |"world" | "football"
+N -> "holmes" | "home" | "i" | "mess" | "palm" | "pipe" | "she" | "car" | "pizza" | "company" | "japan" | "germany"  | "benfica" |"china" | "vietnam" | "you" | "dad" | "son"
+N -> "thursday" | "we" | "word" | "story" | "football-player" | "sunday" |"phone" | "chelsea" | "europe" | "championship" | "1985" | "world-cup" | "2014" | "lahm" |"portugal" | "brazil"
+P -> "at"  | "in" | "of" | "on" | "to"  | "for" 
+V -> "arrived" | "came" | "chuckled" | "had" | "lit" | "said" | "sat" | "smiled" | "told" | "were" | "ate" | "left" | "smile" | "play" | "broke" | "is"
+V -> "paint" | "have" | "go"| "walk" | "comes" |"played" | "come" | "keep" | "does" | "carry" | "won" | "was" | "make" | "see"
+S -> NP VP | S Conj S | S Conj VP
+PP -> P NP
+AdjP -> Adj | Adv Adj | Adj AdjP
+AdvP -> Adv | Adv AdvP
+NP -> N | Det N | Det AdjP N | AdjP N | NP PP
+VP -> V | VP NP | AdvP VP | VP AdvP | VP PP
